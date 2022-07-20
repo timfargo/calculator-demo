@@ -16,7 +16,10 @@ public class CalculatorService {
     public int multiply(Integer a,Integer b){ return a*b;}
 
     public int divide(Integer a,Integer b){ return a/b;}
+
+    public CalculatorService() {
     }
+}
 
 
 
