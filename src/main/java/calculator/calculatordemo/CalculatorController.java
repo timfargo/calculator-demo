@@ -58,7 +58,7 @@ import java.util.Objects;
             return "Оба параметра должны быть переданы";
         }
         if (a == 0){
-            return "Деление на ноль запрещено";
+            return "Деление на ноль запрещено!";
         }
         return buildResult(a,b,calculatorService.divide(a,b),"/");
         }
